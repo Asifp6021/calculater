@@ -21,6 +21,7 @@ function changeTheme(e) {
 	if (e.target.getAttribute('id') === 'toggle2') {
 		htmlElement.classList.remove('theme-dark');
 		htmlElement.classList.remove('theme-third');
+		htmlElement.classList.remove('theme-third');
 		toggle1.style.opacity = 0;
 		toggle3.style.opacity = 0;
 
